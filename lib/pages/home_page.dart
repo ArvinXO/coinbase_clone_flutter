@@ -19,7 +19,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.white.withOpacity(0.9),
       body: SafeArea(
         child: SizedBox(
           height: MediaQuery.of(context).size.height,
